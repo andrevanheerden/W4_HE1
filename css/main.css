@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topNav{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topNav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topNavright {
+    float: right;
+}
+
+.topNav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topNav a.active {
+    background-color: #04aa6d;
+    color: #ffffff;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*.flexcontainer{
+       display: flex;
+       height: 300px;
+       justify-content: center;
+       align-items: center;
+       padding: 5em;
+}*/
+
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+}
+
+.flexitem2{
+    color: #ffffff;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flexitem2 img{
+    width: 100%;
+}
+.flexitem3{
+    padding: 10px;
+    flex: 50%;
+}
+
+.flexitem3 img{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+@media(max-width :800px) {
+    .flexcontainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in;
+    background-color: rgb(180, 180, 175);
+}
+
+.container:hover .overlay{
+    opacity: 0.5;
+}
+
+.overlaytext{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.image2{
+        display: block;
+        width: 40px;
+        height: 40px;
+}
+
+.sunless{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.Nephis{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.Cassia{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
